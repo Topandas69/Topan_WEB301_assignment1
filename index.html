@@ -36,7 +36,34 @@
     </nav>
   </header>
   <main>
-    <!-- Content goes here -->
+    <div class="container">
+      <form>
+
+        <div class="mb-3">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullName" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="businessName" class="form-label">Business Name</label>
+          <input type="text" class="form-control" id="businessName" required>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Are you a non-profit business</label>
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </main>
   <footer>
     <p><a href="https://github.com/Topandas69/Topan_WEB301_assignments/tree/assignment4" target="_blank">Click here</a> To go to the Github repo.</p>
